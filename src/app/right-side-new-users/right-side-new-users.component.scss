@@ -1,0 +1,70 @@
+
+.custom-card {
+    justify-content: right;
+    width: 800px;
+    height: 400px;
+    overflow-y: auto;
+  }
+  
+  .user-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .user-avatar {
+    margin-right: 10px;
+  }
+  
+  .user-details {
+    flex-grow: 1;
+  }
+  
+  .user-progress {
+    width: 80px;
+  }
+
+  .active-status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 8px;
+  }
+  .active {
+    background-color: #65fa85; 
+    color: #13eb45;
+  }
+
+  .inactive {
+    background-color: #eb6b16; 
+    color: #000;
+  }
+
+  .name {
+    font-weight: bold;
+  }
+  .country {
+    font-size: 12px;
+  }
+
+  .card-button {
+    background-color: #eef0f1;
+    color: #0c0b0b; 
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+  
+    /* Hover effect */
+    &:hover {
+      background-color: rgb(121, 153, 182); 
+    }
+  }

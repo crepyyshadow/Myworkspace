@@ -1,0 +1,73 @@
+
+<mat-sidenav-container class="example-container" autosize>
+
+    <mat-toolbar class="mat-toolbar-margin" >
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-icon matSuffix>search</mat-icon>
+            <mat-label>Search Something</mat-label>
+            <input type="text" matInput placeholder="Type something..">
+        </mat-form-field>
+    
+    <span class="spacer"></span>
+            <div class="example-button-row">
+                <div class="example-flex-container">
+                            <div class="example-button-container">
+                                <mat-icon mat-list-iconclass="material-symbols-outlined">chat</mat-icon> 
+                            </div>
+                            <div class="example-button-container">
+                                <mat-icon mat-list-icon class="material-symbols-outlined" >notifications_active</mat-icon> 
+                            </div>
+                            <div class="example-button-container">
+                                <mat-icon mat-list-icon class="material-symbols-outlined" >person</mat-icon><span id="txt1">Cristiano Ronaldo</span> 
+                            </div>                    
+                    
+                </div>
+            </div>
+            
+    </mat-toolbar>
+	<mat-sidenav #sidenav class="example-sidenav" mode="side" opened="true" >
+        <div> 
+            <mat-nav-list>
+            <mat-list-item >
+                <mat-icon mat-list-icon class="material-symbols-outlined custom-icon">
+                    menu</mat-icon>
+            </mat-list-item>
+            </mat-nav-list>
+        </div>
+                <mat-nav-list>
+                    <mat-list-item >
+                        <mat-icon mat-list-icon class="material-symbols-outlined">
+                            check_box_outline_blank</mat-icon>
+                    </mat-list-item>
+                    <mat-list-item >
+                        <mat-icon mat-list-icon class="material-symbols-outlined">
+                            signal_cellular_alt</mat-icon>
+                    </mat-list-item>
+                    <mat-list-item >
+                        <mat-icon mat-list-icon class="material-symbols-outlined">
+                            library_add</mat-icon>
+                    </mat-list-item>
+                    <mat-list-item >
+                        <mat-icon mat-list-icon class="material-symbols-outlined">
+                            download</mat-icon>
+                    </mat-list-item>
+              
+                    <mat-list-item>
+                        <mat-icon mat-list-icon class="material-symbols-outlined">
+                        done_outline</mat-icon>
+                    </mat-list-item>
+              
+                    <mat-list-item>
+                        <mat-icon mat-list-icon  class="material-symbols-outlined">
+                            settings</mat-icon>
+                        </mat-list-item>
+              
+                  </mat-nav-list>
+	</mat-sidenav>
+    <div>
+    <app-top-data-cards></app-top-data-cards>
+    <app-left-side-recent-orders>
+    </app-left-side-recent-orders>
+    <app-bottom-graphs-cards></app-bottom-graphs-cards>
+</div>
+</mat-sidenav-container>

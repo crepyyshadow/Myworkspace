@@ -1,0 +1,49 @@
+.card {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+  }
+  
+  .card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .mat-icon {
+    font-size: 28px;
+    justify-content: left;
+  }
+  .example-card {
+    width: 430px;
+    height: 150px;
+    margin-bottom: 8px;
+    display: inline-block;
+    margin: 10px;
+    background-color: #e0e0e0; 
+  transition: background-color 0.3s; 
+
+  /* Hover effect */
+  &:hover {
+    background-color: #0064FF; 
+  }
+  }
+  .example-card:hover {
+    color: #e0e0e0;
+  }
+ 
+  .custom-card-title {
+    font-size: 50px; 
+    
+    font-weight: bold;
+    margin: 10px;
+  }
+  .custom-card-subtitle {
+    margin: 10px;
+    font-weight: bold;
+  
+  }
+  .custom-card-content {
+    margin: 10px;
+    
+  }

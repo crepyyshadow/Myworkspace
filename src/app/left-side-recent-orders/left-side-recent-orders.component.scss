@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+.card {
+  display: flex; 
+  justify-content: space-between;
+    width: 900px;
+    height: 400px;
+    overflow-y: auto;
+  }
+  
+  .order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .order {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .order-actions {
+    display: flex;
+    align-items: center;
+  }
+  .column {
+    flex: 1;
+    border: none;
+    padding: 8px;
+    margin: 8px;
+    text-align: left;
+  }
